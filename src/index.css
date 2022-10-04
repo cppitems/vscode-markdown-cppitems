@@ -1,0 +1,24 @@
+body {
+    /* margin: 0 auto; */
+    max-width: 650px;
+    min-width: 650px;
+    font-size: 18px;
+    /* font-family: "Crimson Text", serif; */
+    word-wrap: break-word;
+    padding: 1em;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+::marker {
+    display: none;
+}
+
+summary {
+    list-style: none
+}

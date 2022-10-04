@@ -5,7 +5,8 @@
 # build extension (.vsix file)
 ```bash
 # https://code.visualstudio.com/api/working-with-extensions/publishing-extension
-npm install
+npm install 
+npm install ../highlight.js/build/ # local fork with cppitems language
 npm install -g vsce
 vsce package
 ```

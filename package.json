@@ -28,6 +28,9 @@
   ],
   "activationEvents": [],
   "contributes": {
+    "markdown.previewStyles": [
+      "./src/index.css"
+    ],
     "markdown.markdownItPlugins": true,
     "notebookRenderer": [
       {
@@ -62,6 +65,9 @@
     "webpack-cli": "^4.8.0"
   },
   "dependencies": {
-    "markdown-it-emoji": "^2.0.0"
+    "highlight.js": "file:../highlight.js/build",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-highlightjs": "^4.0.1"
   }
 }
