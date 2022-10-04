@@ -15,3 +15,6 @@ vsce package
 - open debugger (preconfigured, launch.json)
 - press "play"
 - open makrdown preview and debug html (CTRL+SHIFT+I)
+
+problem when using a local install:
+https://brandontle.com/writing/forking-modifying-and-publishing-npm-packages/
