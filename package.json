@@ -1,10 +1,10 @@
 {
-  "name": "markdown-emoji",
+  "name": "markdown-cppitems",
   "version": "0.3.0",
-  "displayName": "Markdown Emoji",
+  "displayName": "Markdown Cppitems",
   "description": "Adds emoji syntax support to VS Code's built-in markdown preview and markdown cells in notebook",
   "keywords": [
-    "emoji",
+    "cppitems",
     "markdown",
     "emoticons",
     "github",
@@ -12,13 +12,13 @@
     "notebooks"
   ],
   "icon": "logo/logox128.png",
-  "publisher": "bierner",
+  "publisher": "cppitems",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/mjbvz/vscode-markdown-emoji.git"
+    "url": "https://github.com/cppitems/vscode-markdown-cppitems.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-emoji/issues"
+    "url": "https://github.com/cppitems/vscode-markdown-cppitems/issues"
   },
   "engines": {
     "vscode": "^1.59.0"
@@ -31,8 +31,8 @@
     "markdown.markdownItPlugins": true,
     "notebookRenderer": [
       {
-        "id": "bierner.markdown-it-emoji-extension",
-        "displayName": "Markdown it emoji renderer",
+        "id": "cppitems.markdown-it-cppitems-extension",
+        "displayName": "Markdown it cppitems renderer",
         "entrypoint": {
           "extends": "vscode.markdown-it-renderer",
           "path": "./notebook-out/index.js"
