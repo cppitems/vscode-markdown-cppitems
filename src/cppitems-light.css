@@ -1,0 +1,64 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.vscode-light .hljs {
+  background: white;
+  color: black;
+}
+
+.vscode-light .hljs-string {
+  color: #695;
+}
+
+.vscode-light .hljs-meta .hljs-string {
+  color: #695;
+}
+
+.vscode-light .hljs-meta {
+  color: #1f7199;
+}
+
+.vscode-light .hljs-number {
+  color: #695;
+}
+
+.vscode-light .hljs-literal {
+  color: #695;
+}
+
+.vscode-light .hljs-comment {
+  color: #986232;
+}
+
+.vscode-light .hljs-hide {
+  display: none;
+}
+
+.vscode-light .hljs-r,
+.vscode-light .hljs-R {
+  color: #c01d24;
+}
+
+.vscode-light .hljs-k,
+.vscode-light .hljs-K {
+  color: #000000;
+}
+
+.vscode-light .hljs-b,
+.vscode-light .hljs-B {
+  color: #0040ff;
+}
+
+.vscode-light .hljs-g,
+.vscode-light .hljs-G {
+  color: #68d056;
+}
+
+.vscode-light .hljs-R,
+.vscode-light .hljs-B,
+.vscode-light .hljs-G,
+.vscode-light .hljs-K {
+  font-weight: bold;
+}

@@ -6,7 +6,10 @@
 ```bash
 # https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 npm install 
-npm install ../highlight.js/build/ # local fork with cppitems language
+cd ../highlight.js/build # cd to local package build dir
+npm pack # generates .tgz
+cd ../vscode-markdown-cppitems # cd back to consuming project
+npm install ../highlight.js/build/highlight.js-11.6.0.tgz  # install local fork with cppitems language
 npm install -g vsce
 vsce package
 ```
