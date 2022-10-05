@@ -3,62 +3,53 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
-.vscode-light .hljs {
-  background: white;
-  color: black;
-}
 
-.vscode-light .hljs-string {
+
+.vscode-light .language-cppitems .cppitems-string {
+  color: #695;
+}
+.vscode-light .language-cppitems .cppitems-meta .cppitems-string,
+.vscode-light .language-cppitems .cppitems-meta .cppitems-keyword,
+.vscode-light .language-cppitems .cppitems-number,
+.vscode-light .language-cppitems .cppitems-literal {
   color: #695;
 }
 
-.vscode-light .hljs-meta .hljs-string {
-  color: #695;
-}
-
-.vscode-light .hljs-meta {
+.vscode-light .language-cppitems .cppitems-meta {
   color: #1f7199;
 }
 
-.vscode-light .hljs-number {
-  color: #695;
-}
-
-.vscode-light .hljs-literal {
-  color: #695;
-}
-
-.vscode-light .hljs-comment {
+.vscode-light .language-cppitems .cppitems-comment {
   color: #986232;
 }
 
-.vscode-light .hljs-hide {
+.vscode-light .language-cppitems .cppitems-hide {
   display: none;
 }
 
-.vscode-light .hljs-r,
-.vscode-light .hljs-R {
+.vscode-light .language-cppitems .cppitems-r,
+.vscode-light .language-cppitems .cppitems-R {
   color: #c01d24;
 }
 
-.vscode-light .hljs-k,
-.vscode-light .hljs-K {
+.vscode-light .language-cppitems .cppitems-k,
+.vscode-light .language-cppitems .cppitems-K {
   color: #000000;
 }
 
-.vscode-light .hljs-b,
-.vscode-light .hljs-B {
+.vscode-light .language-cppitems .cppitems-b,
+.vscode-light .language-cppitems .cppitems-B {
   color: #0040ff;
 }
 
-.vscode-light .hljs-g,
-.vscode-light .hljs-G {
+.vscode-light .language-cppitems .cppitems-g,
+.vscode-light .language-cppitems .cppitems-G {
   color: #68d056;
 }
 
-.vscode-light .hljs-R,
-.vscode-light .hljs-B,
-.vscode-light .hljs-G,
-.vscode-light .hljs-K {
+.vscode-light .language-cppitems .cppitems-R,
+.vscode-light .language-cppitems .cppitems-B,
+.vscode-light .language-cppitems .cppitems-G,
+.vscode-light .language-cppitems .cppitems-K {
   font-weight: bold;
 }

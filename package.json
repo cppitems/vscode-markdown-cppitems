@@ -30,9 +30,10 @@
   "contributes": {
     "markdown.previewStyles": [
       "./src/index.css",
-      "./src/cppitems-light.css",
-      "./src/cppitems-dark.css"      
-    ],
+      "./src/cmake-light.css",      
+      "./src/bash-light.css",            
+      "./src/cppitems-light.css"
+      ],
     "markdown.markdownItPlugins": true,
     "notebookRenderer": [
       {

@@ -21,3 +21,7 @@ vsce package
 
 problem when using a local install:
 https://brandontle.com/writing/forking-modifying-and-publishing-npm-packages/
+
+```cpp
+text `#pragma`{.cppitems}  text `#pragma`{.cppitems}  text `#pragma`{.cppitems}  text `#pragma`{.cppitems} 
+```

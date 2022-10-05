@@ -1,11 +1,7 @@
-body {
-    /* margin: 0 auto; */
-    max-width: 650px;
-    min-width: 650px;
-    font-size: 18px;
-    /* font-family: "Crimson Text", serif; */
-    word-wrap: break-word;
-    padding: 1em;
+.vscode-light pre {
+    /* background: white; */
+    background-color: transparent;
+    color: black;
 }
 
 
@@ -14,11 +10,18 @@ img {
     height: auto;
 }
 
+details summary {
+    cursor: pointer;
+}
 
-::marker {
+details summary>* {
+    display: inline;
+}
+
+/* ::marker {
     display: none;
 }
 
 summary {
     list-style: none
-}
+} */

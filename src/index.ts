@@ -6,12 +6,16 @@ import inline_hljs from 'markdown-it-highlightjs/core'
 import hljs from 'highlight.js/lib/core';
 import cppitems from 'highlight.js/lib/languages/cppitems';
 import cmake from 'highlight.js/lib/languages/cmake';
+import bash from 'highlight.js/lib/languages/bash';
+import plaintext from 'highlight.js/lib/languages/plaintext';
 
 // import 'highlight.js/styles/cppitems.css';
 
-hljs.configure({languages:[]});
+hljs.configure({languages:[], classPrefix: 'cppitems-'});
 hljs.registerLanguage('cppitems', cppitems);
 hljs.registerLanguage('cmake', cmake);
+hljs.registerLanguage('bash', bash);
+hljs.registerLanguage('plaintext', plaintext);
 
 export function activate() {
     return {
